@@ -120,12 +120,11 @@
 
 <!--=== Pencarian =====-->
 	
-
 .searchBox{
 }
 	.kotakCari{
 		background: rgba(0,0,0,0.68);
-		width: 50%;
+		width: 60%;
 		height: 40px;
 		z-index: 1;
 		padding: 2%;
@@ -148,7 +147,7 @@
 		position: absolute;
 		margin: 0;
 		top: 14px;
-		left: 40%;
+		left: 50%;
 		border: none;
 		background: #FE5722;
 		text-decoration-line: none;
