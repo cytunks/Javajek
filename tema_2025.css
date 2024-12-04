@@ -125,7 +125,7 @@
 }
 	.kotakCari{
 		background: rgba(0,0,0,0.68);
-		width: 60%;
+		width: 50%;
 		height: 40px;
 		z-index: 1;
 		padding: 2%;
@@ -148,7 +148,7 @@
 		position: absolute;
 		margin: 0;
 		top: 14px;
-		left: 50%;
+		left: 40%;
 		border: none;
 		background: #FE5722;
 		text-decoration-line: none;
