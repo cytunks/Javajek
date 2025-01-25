@@ -1,4 +1,4 @@
-	@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 
 	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
@@ -465,7 +465,7 @@ text-align:left;
 
 	.toko-lainnya{
   position:absolute;
-		right: 5%;
+		right: 10%;
 		background-color: #FE5722;
 		border-radius: 50px;
 		width: 80px;
