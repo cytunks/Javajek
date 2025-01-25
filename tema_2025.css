@@ -382,7 +382,7 @@ text-align:left;
 	.item-nearby-row { 
 float: left;  
 border-radius: 13px; 
-background: #ff000000; 
+background: rgba(245,116,39,0.30); 
 width: 5%; 
 height: auto; 
 margin-left: 5px !important; 
