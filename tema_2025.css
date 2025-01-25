@@ -52,8 +52,8 @@
 
 .carousel-cell {
 	justify-content: center;
-  width: 90%;
-  height: 160px;
+  width: 95%;
+  height: auto;
   margin-right: 5px;
   border-radius: 25px;
   counter-increment: carousel-cell;
