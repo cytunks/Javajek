@@ -6,7 +6,27 @@
 	* {
   box-sizing: border-box;
 }
-
+body {
+  	margin:  4rem 0 0 0;
+  	padding: 1rem 1rem 0 ;
+  	font-family: sans-serif;
+  	font-size: 1rem;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: top;
+	background-attachment: scroll;
+	color: #000;
+     transition: background-image 0.5s ease-in-out;
+}
+header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+	background-attachment: fixed;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position:top;
+      transition: background-image 0.5s ease-in-out;
     }
 
 	
