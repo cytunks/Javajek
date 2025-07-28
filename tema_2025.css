@@ -6,19 +6,32 @@
 	* {
   box-sizing: border-box;
 }
+
+    }
+    
 	body {
-  margin:  3.5rem 0 0 0;
-  padding: 1rem 1rem 0 ;
-  font-family: 'Arial', sans-serif;
-  font-size: 1rem;
+  	margin:  3rem 0 0 0;
+  	padding: 1rem 1rem 0 ;
+  	font-family: 'Arial', sans-serif;
+  	font-size: 1rem;
 	background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKN4oipuWZ3OIW-x5OYkn4guXxqv-Xedv1Lg4L84UOaCwmJMYE7ZMmKdN0Iffl0LCmrkX2ek4tz5c5df6OMYmQHK06bz9SUC9yUPUHaZkfg6h2-j-CkvhZMAb8z6QvHgyEAz0tIwV3VeqRVvkdkmMT9Egm-hLgsJPzFyPSzB5vAd-hXR-ZGZlJNf055Gc/s477/bg.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
-		background-attachment: fixed;
-     color: #000;
-
+	background-size: 100%;
+	background-position: top;
+	background-attachment: scroll;
+	color: #000;
+      	transition: background-image 0.5s ease-in-out;
 }
-	
+header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+	background-attachment: fixed;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position:top;
+      transition: background-image 0.5s ease-in-out;
+    }
 	.kotak-header1 { 
 		width:100%;
 		height:60px;
@@ -36,8 +49,65 @@
      box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
 	}
 
-<!--=== SLIDE =====-->
+<!--- Mata Saldo --->
+	 .saldo_mata {
+      width: 100%;
+      margin: 60px auto;
+      font-family: Arial, sans-serif;
+    }
+
+    .text-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+		font-size: 25px;
+    }
+
+    .text-content {
+      flex-grow: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .eye-icon {
+      cursor: pointer;
+      width: 28px;
+      height: 28px;
+      flex-shrink: 0;
+      transition: transform 0.2s;
+    }
+
+    .eye-icon:hover {
+      transform: scale(1.2);
+    }
 	
+
+<!--=== SLIDE =====-->
+	.flickity-page-dots {
+  text-align: center; /* Center align dots */
+			display: block;
+			position: relative;
+  top: 0px;
+}
+.flickity-page-dots .dot.is-selected {
+  width: 30px; /* Perbesar ukuran dot aktif */
+}
+/* Styling tiap dot */
+.flickity-page-dots .dot {
+  width: 10px; /* Ukuran dot */
+  height: 10px;
+  background: #ccc; /* Warna default */
+  border-radius: 50px; /* Bulat sempurna */
+  margin: 0 5px; /* Jarak antar dots */
+  transition: background 0.3s ease; /* Efek transisi */
+}
+
+/* Dot aktif */
+.flickity-page-dots .dot.is-selected {
+  background: #ff5722; /* Warna dot aktif */
+}
 	
 .carousel {
   background: #EEE;
