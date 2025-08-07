@@ -23,39 +23,7 @@
      box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
 	}
 
-<!--- Mata Saldo --->
-	 .saldo_mata {
-      width: 100%;
-      margin: 60px auto;
-      font-family: Arial, sans-serif;
-    }
 
-    .text-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-		font-size: 25px;
-    }
-
-    .text-content {
-      flex-grow: 1;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .eye-icon {
-      cursor: pointer;
-      width: 28px;
-      height: 28px;
-      flex-shrink: 0;
-      transition: transform 0.2s;
-    }
-
-    .eye-icon:hover {
-      transform: scale(1.2);
-    }
 	
 
 <!--=== SLIDE =====-->
